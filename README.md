@@ -20,17 +20,6 @@ This project implements Harris Corner Detection on multiple images. The detectio
 
 **Processing Multiple Images:** The program processes multiple images, detects corners in each, and displays the result.
 
-# Requirements
-
-o Python 3.x
-
-o OpenCV (cv2): For image processing and corner detection.
-
-o NumPy: For matrix operations.
-
-o Matplotlib: For visualizing results.
-
-
 # Object Recognition by Corner Detection  Code 2
 
 This project implements Harris Corner Detection to identify interest points (corners) in images. The algorithm is applied to an original image and compared with several other rotated or modified images to find matches based on detected corners
@@ -53,4 +42,12 @@ This project implements Harris Corner Detection to identify interest points (cor
 
 **Determine the Best Match:** The image with the highest number of good matches is the rotated version of the original.
 
+# Requirements
 
+o Python 3.x
+
+o OpenCV (cv2): For image processing and corner detection.
+
+o NumPy: For matrix operations.
+
+o Matplotlib: For visualizing results.
