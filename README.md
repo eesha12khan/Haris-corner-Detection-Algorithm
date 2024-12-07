@@ -29,3 +29,26 @@ o OpenCV (cv2): For image processing and corner detection.
 o NumPy: For matrix operations.
 
 o Matplotlib: For visualizing results.
+
+
+# Object Recognition by Corner Detection  Code 2
+
+This project implements Harris Corner Detection to identify interest points (corners) in images. The algorithm is applied to an original image and compared with several other rotated or modified images to find matches based on detected corners
+
+# Features
+
+**Harris Corner Detection:** Detects corners in an image using the Harris corner detection algorithm.
+
+**Corner Matching:** Compares detected corners in an original image with other images (e.g., rotated or modified versions) to see if they match.
+
+**Visualization:** Displays the original image and the compared images side by side for easy comparison.
+
+# Steps in the Code:
+
+**Harris Corner Detection:** Detect corners in all images.
+
+**Feature Matching:** Match the original image's features to the other images using a brute-force matcher.
+
+**Similarity Scoring:** Count the number of good matches for each image.
+
+**Determine the Best Match:** The image with the highest number of good matches is the rotated version of the original.
