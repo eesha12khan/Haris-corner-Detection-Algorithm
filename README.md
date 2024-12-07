@@ -52,3 +52,5 @@ This project implements Harris Corner Detection to identify interest points (cor
 **Similarity Scoring:** Count the number of good matches for each image.
 
 **Determine the Best Match:** The image with the highest number of good matches is the rotated version of the original.
+
+
