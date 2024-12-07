@@ -1,4 +1,4 @@
-# Haris-corner-Detection-Algorithm
+# Harris-Corner-Detection-Algorithm
 
 # Harris Corner Detection Code 1
 
